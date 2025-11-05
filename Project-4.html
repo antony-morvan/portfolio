@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Systems Experience — Antony Morvan</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+        <!-- ============ NAVBAR ============ -->
+        <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Antony Morvan Logo" />
+            </a>
+            </div>
+
+            <div class="main-menu">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#work" class="active">Work</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <!-- ================= HERO ================= -->
+        <section class="project-hero project-hero-space">
+        <div class="hero-inner">
+            <h1>Space Systems Engineering & Mission Design</h1>
+            <p>
+            Simulation and analysis of interplanetary trajectories, Earth observation orbits,
+            and satellite communications using <span class="highlight-blue">AGI STK</span> and analytical models.
+            </p>
+        </div>
+        </section>
+
+        <!-- ==== CONTENT ==== -->
+        <section class="project-content">
+            <div class="container">
+                <!-- === Overview === -->
+                <div class="project-section">
+                    <h2>Overview</h2>
+                    <p class="text-md">
+                    This project focuses on the design and simulation of space missions using
+                        <span class="highlight-blue">AGI Systems Tool Kit (STK)</span>, supported by analytical calculations
+                        in orbital mechanics and launcher performance evaluation.
+                        Several missions were modelled : from <span class="highlight-blue">Earth-to-Moon</span> transfer,
+                        <span class="highlight-blue">Mars rendez-vous</span>, to <span class="highlight-blue">Earth observation
+                        and telecommunication constellations</span>.
+                    </p>
+                    <hr class="edu-divider" />
+            </div>
+
+
+                <!-- === STK Missions === -->
+                <div class="project-section">
+                    <h2>Mission Design with STK</h2>
+                    <p class="text-md">
+                    Using <span class="highlight-blue">STK 12</span>, I developed complete space-mission profiles:
+                    </p>
+                    <ul class="experience-desc text-md">
+                    <li>Design of a <span class="highlight-blue">Lunar Transfer Mission</span> with optimal injection and capture trajectories.</li>
+                    <li><span class="highlight-blue">Mars Transfer</span> planning using patched-conic approximation and ΔV budgeting.</li>
+                    <li><span class="highlight-blue">Earth Observation Satellite</span> setup with sun-synchronous orbit definition and revisit analysis.</li>
+                    <li><span class="highlight-blue">Communication Constellation</span> analysis including coverage and link-budget estimation.</li>
+                    </ul>
+                    </p>
+
+                    <div class="project-image small-image">
+                    <img src="assets/images/work-STK.png" alt="STK space mission simulation" />
+                    <p class="caption">Geosynchronous Mission simulations performed in AGI STK.</p>
+                </div>
+
+                <hr class="edu-divider" />
+
+                <!-- === Analytical Work === -->
+                <div class="project-section">
+                    <h2>Analytical & Manual Calculations</h2>
+                    <p class="text-md">
+                    In addition to software simulation, all <span class="highlight-blue">orbit determination</span> and
+                    <span class="highlight-blue">launcher performance</span> analyses were performed manually
+                    to validate the numerical results. Using classical astrodynamics equations and
+                    performance estimation methods, I calculated transfer ΔV, Tsiolkovsky trajectories,
+                    and vehicle mass ratios for preliminary <span class="highlight-blue">launcher and satellite design studies</span>
+                    </p>
+                </div>
+
+            <!-- === BACK BUTTON === -->
+            <div class="back-button-container">
+                <a href="index.html" class="back-button" onclick="sessionStorage.setItem('returnToWork', 'true')">
+                Back to Work
+                </a>
+            </div>
+            </div>
+        </section>
+
+        <!-- ============ FOOTER ============ -->
+        <footer class="footer">
+            <div class="footer-line"></div>
+            <p class="footer-copyright">
+                © 2025 Antony Morvan — Aerospace Engineer @ ISAE-SUPAERO. All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>
