@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antony Morvan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CGEWEWGCG"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-6CGEWEWGCG');
+      </script>
+
+    <link rel="icon" href="assets/images/Logo1.png" type="image/png">
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/Logo1.png" alt="Antony Morvan Logo" />
+          </a>
+        </div>
+
+        <div class="main-menu text-md-btn">
+          <ul>
+            <li><a href="#" class="active" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('work')">Work</a></li>
+            <li><a href="#" onclick="showPage('about')">About</a></li>
+          </ul>
+        </div>
+
+        <div class="link-icon-tab">
+          <ul>
+            <li>
+              <a
+                class="link-icon"
+                href="https://www.linkedin.com/in/antony-morvan-865aab217/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link-icon"
+                href="mailto:antony.morvan@student.isae-supaero.fr"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </li>
+            <li>
+              <a class="link-icon" href="tel:+33652753011">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('work')">Work</a></li>
+            <li><a href="#" onclick="showPage('about')">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HOME ================= -->
+    <section id="home" class="home section active-section">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-heading text-xxl">Hi, I'm Antony Morvan</h1>
+            <h2 class="hero-subheading text-xl">
+              Aerospace Engineer <br> Advanced Master's Student @ ISAE-SUPAERO
+            </h2>
+            <p class="hero-text text-md">
+              Passionate about aerospace engineering, I aim at the interface between design, testing, and integration.
+              high-performance systems that push the limits of technology.
+              With a strong foundation in aerospace engineering from ELISA Aerospace and advanced specialization at ISAE-SUPAERO, 
+              I focus on turning complex challenges into innovative and efficient structural solutions.
+            </p>
+            <div class="hero-buttons">
+              <a
+                href="assets/Resume_Antony_MORVAN.pdf"
+                target="_blank"
+                rel="noopener"
+                class="btn"
+                data-open-resume
+              >
+                My Resume
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- === My Services === -->
+      <section class="my-services">
+        <div class="container">
+          <div class="my-services-grid">
+
+            <!-- Service 1 -->
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="assets/images/33.png" alt="CAD Icon" />
+              </div>
+              <div class="service-content">
+                <h3>3D Part Design (CAD)</h3>
+                <p>
+                  Turning sketches and ideas into detailed designs using CATIA and
+                  3DExperience.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="assets/images/11.png" alt="FEM Icon" />
+              </div>
+              <div class="service-content">
+                <h3>Finite Element Analysis (FEA)</h3>
+                <p>
+                  Performing stress and thermal simulations in ANSYS, Abaqus, and
+                  3DExperience for mechanical validation.
+                </p>
+              </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-box">
+              <div class="service-icon">
+                <img src="assets/images/22.png" alt="CFD Icon" />
+              </div>
+              <div class="service-content">
+                <h3>Computational Fluid Dynamics (CFD)</h3>
+                <p>
+                  Simulating aerodynamic performance in ANSYS Fluent and MATLAB to
+                  optimize efficiency.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <!-- === Quick View Projects === -->
+      <section class="sum-work">
+        <div class="container">
+          <div class="sum-work-header">
+            <div class="sum-header-text">
+              <h3 class="text-xxl">Quick View</h3>
+              <h4 class="text-md">Take a look at some featured projects.</h4>
+            </div>
+            <div class="sum-work-button">
+              <a href="#" class="btn btn-special" onclick="showPage('work')">
+                View All <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="sum-work-cards">
+            <a href="#" onclick="showPage('work')"
+              ><div class="work-card"><h3>3D Designing</h3></div></a
+            >
+            <a href="#" onclick="showPage('work')"
+              ><div class="work-card"><h3>Finite Element Analysis</h3></div></a
+            >
+            <a href="#" onclick="showPage('work')"
+              ><div class="work-card"><h3>Aerodynamics Analysis</h3></div></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- === Work Experience Highlights === -->
+      <section class="work-highlights">
+        <div class="container">
+          <div class="sum-work-header">
+            <div class="sum-header-text">
+              <h3 class="text-xxl">Work Experience Highlights</h3>
+              <h4 class="text-md">
+                A snapshot of my professional experience in aerospace design and testing.
+              </h4>
+            </div>
+          </div>
+
+          
+          <div class="sum-work-cards experience-grid">
+            <!-- Airbus -->
+            <div class="experience-card">
+              <div class="experience-header">
+                <img src="assets/images/Logo-Airbus.png" alt="Airbus Logo" class="experience-logo" />
+                <div class="experience-info">
+                  <h4>Airbus Helicopters</h4>
+                  <p class="experience-period">2025</p>
+                  <p class="experience-role"> Design and R&D Engineer - Intern</p>
+                </div>
+              </div>
+              <p class="experience-desc text-md">
+                Led the pre-development of an innovative composite manufacturing method to optimize blade structural design.
+              </p>
+              <hr class="edu-divider" />
+              <div class="tags">
+                <span class="tag">Integration</span>
+                <span class="tag">Structures</span>
+                <span class="tag">CAD</span>
+                <span class="tag">Composites</span>
+              </div>
+            </div>
+
+            <!-- Ateliers Bigata — Cryogenic Test Bench -->
+            <div class="experience-card">
+              <div class="experience-header">
+                <img src="assets/images/Logo-Bigata.png" alt="Ateliers Bigata Logo" class="experience-logo" />
+                <div class="experience-info">
+                  <h4>Ateliers Bigata</h4>
+                  <p class="experience-period">2024</p>
+                  <p class="experience-role"> R&D Engineer </p>
+                </div>
+              </div>
+              <p class="experience-desc text-md">
+                Developed and led cryogenic test campaigns. Authored technical documentation and procedures ensuring compliance with R&D objectives. 
+              </p>
+              <hr class="edu-divider" />
+              <div class="tags">
+                <span class="tag">Management</span>
+                <span class="tag">AIT</span>
+                <span class="tag">Optimization</span>
+                <span class="tag">CAD</span>
+              </div>
+            </div>
+
+            <!-- Ateliers Bigata — 2 -->
+            <div class="experience-card">
+              <div class="experience-header">
+                <img src="assets/images/Logo-Bigata.png" alt="Ateliers Bigata Logo" class="experience-logo" />
+                <div class="experience-info">
+                  <h4>Ateliers Bigata</h4>
+                  <p class="experience-period">2023</p>
+                  <p class="experience-role"> R&D Engineer - Intern</p>
+                </div>
+              </div>
+              <p class="experience-desc text-md">
+                Designed and validated a cryogenic test bench for aerospace applications, combining 3D modeling, stress analysis, and cryogenic safety verification.
+              </p>
+              <hr class="edu-divider" />
+              <div class="tags">
+                <span class="tag">Cryogenics</span>
+                <span class="tag">Tesings</span>
+                <span class="tag">Mechanical Design</span>
+                <span class="tag">CAD</span>
+                <span class="tag">FEA</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </section>
+
+    <!-- ================= WORK ================= -->
+    <section id="work" class="work-section section">
+
+      <!-- ==== HERO BANNER (même image que Home) ==== -->
+      <div class="work-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-inner">
+          <h1>A Glimpse into My Work</h1>
+          <p>Browse, get inspired, and let’s connect!
+          </p> 
+        </br>
+          Here, you’ll find projects that showcase my hands-on experience, analytical skills and passion for engineering.
+          This section offers a glimpse into the projects that have defined my journey so far, each piece illustrating a
+          unique challenge, my approach and the results achieved.  
+          From coursework to professional experiences, I’ve gathered practical insights that I continue to build upon.
+          </br>
+          </br>
+        </div>
+      </div>
+
+
+
+      <!-- ==== WORK GRID ==== -->
+      <div class="work-cards2">
+        <a href="Project-1.html" class="work-card2 card2-3d"><h3>3D Designing</h3></a>
+        <a href="Project-2.html" class="work-card2 card2-fea"><h3>Finite Element Analysis</h3></a>
+        <a href="Project-3.html" class="work-card2 card2-cfd"><h3>Aerodynamics Simulation</h3></a>
+        <a href="Project-4.html" class="work-card2 card2-space"><h3>Space Systems</h3></a>
+        <a href="Project-5.html" class="work-card2 card2-code"><h3>Programming & Simulation</h3></a>
+        <!--<a href="Project-6.html" class="work-card"><h3>Guidance & Control System</h3></a>-->
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="about-section section">
+      <div class="container about-grid">
+        <!-- Texte -->
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          
+        <p class="text-md">
+          Passionate about aerospace engineering, I aim at the interface between 
+          <span class="highlight-blue">design, testing, and integration</span> 
+          of high-performance systems that push the limits of technology.
+          Since childhood, I’ve been fascinated by how engineering enables humanity to reach beyond our planet, 
+          and this curiosity has evolved into a drive to build systems that truly make a difference.
+        </p>
+      </br>
+
+        <p class="text-md">
+          With a solid <span class="highlight-blue">aerospace engineering</span> foundation
+          from ELISA Aerospace and an 
+          <span class="highlight-blue">advanced specialization</span> 
+          at ISAE-SUPAERO, I focus on turning complex challenges into innovative and efficient structural solutions.
+          I enjoy working in multidisciplinary teams and transforming ideas into tested, reliable systems.
+        </p>
+      </br>
+        <p class="text-md">
+          Currently, I’m looking to contribute to projects in 
+          <span class="highlight-blue">structural design, integration, or propulsion</span>, 
+          where precision and innovation meet.
+        </p>
+        </div>
+
+        <!-- Photo -->
+        <div class="about-photo">
+          <img src="assets/images/Photo_Antony_MORVAN.png" alt="Antony Morvan" />
+        </div>
+      </div>
+
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="about-education">
+      <div class="container">
+        <h3 class="section-title">Education</h3>
+
+        <div class="education-grid">
+          <!-- ISAE-SUPAERO -->
+          <div class="education-card">
+            <div class="education-header">
+              <img src="assets/images/Logo-ISAE.png" alt="ISAE-SUPAERO Logo" class="education-logo" />
+              <div class="education-info">
+                <h4>ISAE-SUPAERO</h4>
+                <p class="education-period">2024 – 2025</p>
+                <p class="education-degree">Advanced Master in Aerospace Structures</p>
+              </div>
+            </div>
+            <p class="education-desc text-md">
+              A high-level postgraduate program dedicated to the <span class="highlight-blue">design, modeling, and qualification</span> of aerospace structures.
+              Advanced courses in <span class="highlight-blue">structural mechanics</span>, dynamics, fatigue, and flexible systems, with a strong focus on innovation and industrial application.
+              The program emphasizes <span class="highlight-blue">FEA simulation, CAD modeling, and testing methods.</span>
+              Develops solid expertise in aerospace materials, design optimization, and structural certification processes.
+            </p>
+            <hr class="edu-divider" />
+            <div class="tags">
+              <span class="tag">Mechanical</span>
+              <span class="tag">Structural Design</span>
+              <span class="tag">Dynamics, Flexible, Fatigue</span>
+              <span class="tag">Innovative & Strategic management</span>
+              <span class="tag">Mechanics of materials</span>
+              <span class="tag">Aerospace qualification</span>
+            </div>
+          </div>
+
+          <!-- ELISA Aerospace -->
+          <div class="education-card">
+            <div class="education-header">
+              <img src="assets/images/Logo-ELISA.png" alt="ELISA Aerospace Logo" class="education-logo" />
+              <div class="education-info">
+                <h4>ELISA Aerospace</h4>
+                <p class="education-period">2020 – 2025</p>
+                <p class="education-degree">Aerospace Engineering Degree</p>
+              </div>
+            </div>
+            <p class="education-desc text-md">
+              <span class="highlight-blue"> Aerospace Engineering</span> training with a major in missile and space systems design.
+              Strong foundation in fluid mechanics, aerodynamics, and GNC with practical design and simulation projects.
+              Hands-on experience in CAD modeling, FEA analysis, and system integration.
+              Built a <span class="highlight-blue">multidisciplinary mindset</span> bridging innovation, performance, and reliability in aerospace design.
+            </p>
+            <hr class="edu-divider" />
+            <div class="tags">
+              <span class="tag">FEA</span>
+              <span class="tag">CAD</span>
+              <span class="tag">Programming</span>
+              <span class="tag">Aerodynamics</span>
+              <span class="tag">Space Systems Design</span>
+              <span class="tag">Composite Materials</span>
+              <span class="tag">RAMS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WORK EXPERIENCE ================= -->
+    <section class="about-experience">
+      <div class="container">
+      </br>
+        <h3 class="section-title">Work Experience</h3>
+
+        <div class="experience-grid">
+          <!-- === Airbus === -->
+          <div class="experience-card">
+            <div class="experience-header">
+              <img src="assets/images/Logo-Airbus.png" alt="Airbus Logo" class="experience-logo" />
+              <div class="experience-info">
+                <h4>Airbus Helicopters</h4>
+                <p class="experience-period">2025</p>
+                <p class="experience-position">Design and R&D engineer - Intern</p>
+              </div>
+            </div>
+            <ul class="experience-desc text-md">
+              <li>Designed and validated a structural pre-sizing approach for composite rotor blades.</li>
+              <li>Integrated advanced composite manufacturing parameters into the design loop to improve process efficiency.</li>
+              <li>Conducted test definition, mechanical characterization, and model correlation.</li>
+              <li>Delivered predictive design tools and technical documentation supporting future rotor blade developments.</li>
+            </ul>
+            <hr class="edu-divider" />
+            <div class="tags">
+              <span class="tag">Integration</span>
+              <span class="tag">Structural Design</span>
+              <span class="tag">CAD</span>
+              <span class="tag">Composites</span>
+              <span class="tag">Testing Definition</span>
+              <span class="tag">R&D</span>
+            </div>
+          </div>
+
+          <!-- === Ateliers Bigata — 2 === -->
+          <div class="experience-card">
+            <div class="experience-header">
+              <img src="assets/images/Logo-Bigata.png" alt="Bigata Logo" class="experience-logo" />
+              <div class="experience-info">
+                <h4>Ateliers Bigata</h4>
+                <p class="experience-period">2024</p>
+                <p class="experience-position">R&D Engineer</p>
+              </div>
+            </div>
+            
+            <ul class="experience-desc text-md">
+              <li>Led cryogenic test campaigns for system validation and performance characterization.</li>
+              <li>Developed & optimized gas and cryogenic test procedures, ensuring data accuracy and operational safety.</li>
+              <li>Managed instrumentation, data acquisition, and result analysis to support R&D objectives.</li>
+              <li>Trained and supervised an intern to ensure project continuity.</li>
+            </ul>
+            <hr class="edu-divider" />
+            <div class="tags">
+              <span class="tag">Management</span>
+              <span class="tag">AIT</span>
+              <span class="tag">Optimization</span>
+              <span class="tag">CAD</span>
+              <span class="tag">R&D</span>
+              
+            </div>
+          </div>
+
+          <!-- === Ateliers Bigata — 1 === -->
+          <div class="experience-card">
+            <div class="experience-header">
+              <img src="assets/images/Logo-Bigata.png" alt="Bigata Logo" class="experience-logo" />
+              <div class="experience-info">
+                <h4>Ateliers Bigata</h4>
+                <p class="experience-period">2023</p>
+                <p class="experience-position"> R&D Engineer - Intern</p>
+              </div>
+            </div>
+
+            <ul class="experience-desc text-md">
+              <li>Contributed to the full design cycle of a cryogenic test bench.</li>
+              <li>Performed Mechanical and Fluid Design </li>
+              <li>Led experimental qualification & validation.</li>
+              <li>Led the system integration.</li>
+              <li>Developped instrumentation and acquisition systems.</li>
+              <li>Established procedures for gas and cryogenic operations. </li>
+            </ul>
+            <hr class="edu-divider" />
+            <div class="tags">
+              <span class="tag">Cryogenics</span>
+              <span class="tag">Testing</span>
+              <span class="tag">Mechanical Design</span>
+              <span class="tag">FEA</span>
+              <span class="tag">CAD</span>
+              <span class="tag">Electronics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-line"></div>
+
+        <div class="footer-grid">
+          <h4 class="footer-text">Let's get in touch!</h4>
+          <p class="text-md">
+            Open to opportunities in Aerospace Engineering,
+            Mechanical design and Propulsion.
+          </p>
+
+          <div class="link-icon-tab">
+            <ul>
+              <li>
+                <a
+                  class="link-icon"
+                  href="https://www.linkedin.com/in/antony-morvan-865aab217/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="link-icon"
+                  href="mailto:antony.morvan@student.isae-supaero.fr"
+                >
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+                <a class="link-icon" href="tel:+33652753011">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <p class="footer-copyright">
+            © 2025 Antony Morvan — Aerospace Engineer @ ISAE-SUPAERO. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CFD Experience — Antony Morvan</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+        <!-- ============ NAVBAR ============ -->
+        <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Antony Morvan Logo" />
+            </a>
+            </div>
+
+            <div class="main-menu">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#work" class="active">Work</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+        <!-- ================= PROJECT 4 : CFD ANALYSIS ================= -->
+        <section class="project-hero project-hero-cfd">
+        <div class="hero-inner">
+            <h1>Computational Fluid Dynamics (CFD) Analysis</h1>
+            <p>
+            Aerodynamic and internal flow studies using <span class="highlight-blue">ANSYS Fluent</span>      
+            </p>
+        </div>
+        </section>
+
+        <!-- ==== CONTENT ==== -->
+        <section class="project-content">
+            <div class="container">
+                <!-- === Overview === -->
+                <div class="project-section">
+                    <h2>Overview</h2>
+                    <p class="text-md">
+                        This project gathers a set of <span class="highlight-blue">CFD analyses</span> carried out in 
+                        <span class="highlight-blue">ANSYS Fluent</span>, covering both internal and external flow configurations. 
+                        The main objectives were to evaluate aerodynamic efficiency, turbulence effects, and flow behavior 
+                        through numerical simulation and physical interpretation.
+                    </p>
+                    <hr class="edu-divider" />
+            </div>
+
+
+                <!-- === Dual-Stream Mixer === -->
+                <div class="project-section">
+                    <h3>Internal Flow Study — Dual-Stream Mixer Analysis</h3>
+                    <p class="text-md text-justify">
+                        The dual-stream mixer 
+                        was analyzed to study internal flow mixing performance and pressure losses within a complex geometry. 
+                        The objective was to optimize mixing efficiency between primary and secondary streams while maintaining 
+                        acceptable total pressure recovery.
+                    </p>
+
+                    <p class="text-md text-justify">
+                        Using <span class="highlight-blue">ANSYS Fluent</span>, I performed steady-state RANS simulations 
+                        with a k–ε turbulence model, evaluating velocity gradients, 
+                        swirl formation, and outlet uniformity. Streamline visualization and pressure maps were used to 
+                        identify local determine mixing efficiency and evaluated loss coefficients to optimize design for minimal energy loss.
+                    </p>
+
+                    <div class="project-image small-image">
+                    <img src="assets/images/CFD_coude.png" alt="CFD simulation of dual-stream mixer" />
+                    <p class="caption">CFD  Dual-Stream mixer model used in ANSYS Fluent.</p>
+                </div>
+
+                <hr class="edu-divider" />
+
+                <!-- === NACA === -->
+                <div class="project-section">
+                    <h3>Aerodynamic Analysis of a NACA 0012 Airfoil</h3>
+                    <p class="text-md text-justify">
+                        This study involved a comprehensive CFD analysis of a 
+                        <span class="highlight-blue">NACA 0012 airfoil</span>, focusing on both inviscid (ideal) and viscous flow conditions.
+                        Simulations were carried out using <span class="highlight-blue">ANSYS Fluent</span> to investigate 
+                        aerodynamic characteristics such as pressure distribution, lift, drag, and flow separation under varying 
+                        angles of attack.
+                    </p>
+
+                    <div class="project-image small-image">
+                    <img src="assets/images/quickview-aero.png" alt="CFD simulation of NACA 0012 airfoil" />
+                        <p class="caption">CFD Post Processing on a NACA airfoil</p>
+                    </div>
+
+                    <h3>Process & Achievements</h3>
+                    <ul class="experience-desc text-md">
+                        <li>Generated and refined computational meshes ranging from 15,000 to 40,000 elements for improved precision.</li>
+                        <li>Simulated <span class="highlight-blue">inviscid flow</span> to analyze lift and pressure distribution across the profile.</li>
+                        <li>Applied Spalart–Allmaras and k–ω SST models to capture viscous effects and boundary layer behavior.</li>
+                        <li>Improved convergence and stability through mesh refinement, achieving lift and drag coefficients aligned with experimental benchmarks.</li>
+                        <li>Analyzed lift coefficient evolution with varying angles of attack, identifying flow attachment and separation transitions.</li>
+                    </ul>
+                </div>
+            <hr class="edu-divider" />
+
+                <!-- === CFD of Ariane 5 Launcher === -->
+                <div class="project-section">
+                <h2>CFD Analysis of Ariane 5 Launcher</h2>
+                <p class="text-md text-justify">
+                    As part of an <strong>aerodynamic and launch vehicle study</strong>, I conducted 
+                    a CFD analysis on the <span class="highlight-blue">Ariane 5</span> launcher
+                    to evaluate the external flow behavior during ascent and assess 
+                    <span class="highlight-blue">shock formation</span> and <span class="highlight-blue">pressure evolution</span> 
+                    along the vehicle body.
+                </p>
+
+                <p class="text-md text-justify">
+                    The objective was to identify <strong>critical aerodynamic zones</strong>, 
+                    such as shock intersections and flow separation near the fairing and booster junctions.
+                    Using <strong>ANSYS Fluent</strong> and numerical post-processing tools, I visualized 
+                    Mach contours, stagnation pressure fields, and temperature gradients to 
+                    characterize the impact of compressibility at high-speed regimes.
+                </p>
+
+                <div class="project-image">
+                    <img src="assets/images/CFD_Ariane.png" alt="Ariane 5 CFD Flow Analysis" />
+                    <p class="caption">Flow visualization and shock-wave structures around the Ariane 5 launcher.</p>
+                </div>
+
+                <h3>Process & Insights</h3>
+                <ul class="experience-desc text-md">
+                    <li>Generated a high-fidelity surface and volume mesh around the Ariane 5 geometry.</li>
+                    <li>Simulated <span class="highlight-blue">supersonic flow regimes</span> to visualize detached and oblique shocks.</li>
+                    <li>Analyzed <span class="highlight-blue">pressure coefficient distributions</span> to identify aerodynamic loads on key structures.</li>
+                    <li>Correlated the results with analytical <span class="highlight-blue">shock relations and flow models</span> from compressible aerodynamics.</li>
+                </ul>
+
+                <p class="text-md text-justify">
+                    This study provided valuable insight into <strong>launcher aerodynamics under hypersonic flow</strong>,
+                    enabling comparison between numerical and theoretical results to validate modeling accuracy.
+                </p>
+                </div>
+
+
+            <!-- === BACK BUTTON === -->
+            <div class="back-button-container">
+                <a href="index.html" class="back-button" onclick="sessionStorage.setItem('returnToWork', 'true')">
+                Back to Work
+                </a>
+            </div>
+            </div>
+        </section>
+
+        <!-- ============ FOOTER ============ -->
+        <footer class="footer">
+            <div class="footer-line"></div>
+            <p class="footer-copyright">
+                © 2025 Antony Morvan — Aerospace Engineer @ ISAE-SUPAERO. All rights reserved.
+            </p>
+        </footer>
+    </body>
+</html>

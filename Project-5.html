@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming & Simulation — Antony Morvan</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="Antony Morvan Logo" />
+          </a>
+        </div>
+
+        <div class="main-menu">
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#work" class="active">Work</a></li>
+            <li><a href="index.html#about">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============ HERO IMAGE BACKGROUND ============ -->
+    <section class="project-hero project-hero-code">
+      <div class="hero-inner">
+        <h1>Programming & Simulation</h1>
+        <p>
+          From <span class="highlight-blue">Python game design</span> to advanced 
+          <span class="highlight-blue">MATLAB aerospace simulations</span> :
+          exploring numerical modelling and control.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ PROJECT CONTENT ============ -->
+    <section class="project-content">
+      <div class="container">
+
+        <!-- === PYTHON GAME PROJECT === -->
+        <h2 class="section-title">Python - Interactive Game Development</h2>
+        <p class="text-md text-justify">
+          As part of an academic project, I developed a complete 
+          <span class="highlight-blue">interactive game in Python</span> using object-oriented programming. 
+          The goal was to design a modular, maintainable, and efficient code structure with a graphical interface 
+          and basic physics interactions.
+        </p>
+        <p class="text-md text-justify">
+          The project included <span class="highlight-blue">player controls</span>, event management, 
+          collision detection, and scoring systems, all implemented in Python. 
+          This experience strengthened my understanding of algorithms, classes, and game logic structuring.
+        </p>
+
+        <hr class="edu-divider" />
+
+        <!-- === MATLAB OVERBRAIDING PROJECT === -->
+        <h2 class="section-title">MATLAB -Overbraiding Process Modelling </h2>
+        <p class="text-md text-justify">
+          During my R&D internship at <strong>Airbus</strong>, I developed a 
+          <span class="highlight-blue">MATLAB model for composite overbraiding</span> on cylindrical and elliptical mandrels. 
+          The objective was to predict the local braiding angle and fiber path for different process parameters, 
+          and evaluate its <span class="highlight-blue">applicability to existing industrial components</span>.
+        </p>
+
+        <ul class="experience-desc text-md">
+          <li>Conducted an extensive literature review on overbraiding mechanisms and geometry prediction models.</li>
+          <li>Developed a <span class="highlight-blue">simplified analytical model</span> to estimate braiding angles along the mandrel perimeter.</li>
+          <li>Implemented more complex MATLAB simulations integrating mandrel geometry and fiber overlap constraints.</li>
+          <li>Analyzed model applicability to Airbus structures and defined a <span class="highlight-blue">validation test plan</span> for physical trials.</li>
+        </ul>
+
+        <div class="project-image small-image">
+          <img src="assets/images/Code_Braiding.png" alt="Overbraiding Simulation MATLAB" />
+          <p class="caption">Simulation of overbraiding geometry on elliptical mandrel - MATLAB analytical model.</p>
+        </div>
+
+        <hr class="edu-divider" />
+
+        <!-- === MATLAB MISSILE GUIDANCE === -->
+        <h2 class="section-title">MATLAB - Missile Guidance Simulation</h2>
+        <p class="text-md text-justify">
+          This project focused on the <span class="highlight-blue">simulation of missile guidance laws</span> 
+          using MATLAB and Simulink. The objective was to intercept a moving target by modelling both 
+          target motion and missile response under different control strategies.
+        </p>
+
+        <ul class="experience-desc text-md">
+          <li>Modelled <strong>pursuit</strong>, <strong>lead</strong>, and <strong>proportional navigation</strong> guidance laws.</li>
+          <li>Simulated dynamic target motion including oscillatory and non-uniform velocities.</li>
+          <li>Implemented a feedback control loop ensuring stability and minimizing miss distance.</li>
+          <li>Validated the system performance with a final impact deviation below <strong>10 cm</strong>.</li>
+        </ul>
+
+        <div class="project-image small-image">
+          <img src="assets/images/Code_Missile.png" alt="Missile Guidance Simulation MATLAB" />
+          <p class="caption">MATLAB/Simulink simulation of missile trajectory interception - proportional navigation control.</p>
+        </div>
+
+        <hr class="edu-divider" />
+
+        <!-- === MATLAB HYPERSONIC MODELLING === -->
+        <h2 class="section-title">MATLAB - Hypersonic Flow </h2>
+        <p class="text-md text-justify">
+          In this analytical project, I modelled <span class="highlight-blue">shockwave formation</span> 
+          and <span class="highlight-blue">pressure evolution</span> over the body of the Ariane 5 launcher 
+          during hypersonic flight regimes. Using MATLAB, I implemented both normal and oblique shock equations 
+          to study the aerodynamic loading and thermal effects on the launcher structure.
+        </p>
+
+        <ul class="experience-desc text-md">
+          <li>Implemented shock and expansion models based on <strong>compressible flow theory</strong>.</li>
+          <li>Computed post-shock Mach number, pressure, and temperature distributions along the vehicle body.</li>
+          <li>Identified detached shock behavior over the fairing and expansion waves near the interstage.</li>
+          <li>Validated trends with aerodynamic databases and analytical reference values.</li>
+        </ul>
+
+        <!-- === BACK BUTTON === -->
+        <div class="back-button-container">
+          <a href="index.html" class="back-button" onclick="sessionStorage.setItem('returnToWork', 'true')">
+            Back to Work
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="footer-line"></div>
+      <p class="footer-copyright">
+        © 2025 Antony Morvan — Aerospace Engineer @ ISAE-SUPAERO. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
