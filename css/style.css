@@ -1984,6 +1984,9 @@ body {
    ========================================================= */
 @media (max-width: 768px) {
 
+   .navbar {
+    padding: 1rem 0rem !important;
+  }
   /* === 🏠 HOME SECTION === */
   .hero {
     height: auto !important;               /* ✅ permet au texte de respirer */
